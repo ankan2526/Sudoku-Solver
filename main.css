@@ -22,8 +22,8 @@ colgroup, tbody {
 
 td {
     border: 2px solid black;
-    height: 2.5em;
-    width: 2.5em;
+    height: 2em;
+    width: 2em;
     text-align: center;
     padding: 0;
 }
@@ -44,6 +44,14 @@ table.keypad{
     left: 42.5%;
     opacity: 0.98;
 }
+
+@media (max-device-aspect-ratio: 1/1) {
+    table.keypad{
+        left: 30%;
+        width: 40%;
+    }
+}
+
 
 table.keypad td{
     border: 2px solid black;
